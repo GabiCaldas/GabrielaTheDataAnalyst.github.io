@@ -72,6 +72,18 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Set the third article to full width */
+.full-width {
+    width: 100%; /* Make sure this article takes up the full width */
+    clear: both; /* Clear any float issues */
+}
+
+.full-width-iframe {
+    width: 100%; /* Ensure the iframe takes up the full width of the article */
+    max-width: 100%; /* Ensure no overflow beyond the container */
+    height: 600px; /* You can adjust this height as needed */
+}
+
 /* Basic */
 
 	@-ms-viewport {
